@@ -1,19 +1,25 @@
-
-div.a {
-    text-align: center;
-}
-
-.z{
-    padding-top: 20%;
-    max-width: 100%;
-}
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
 
 
-.x{
-    padding-top: 5%;
-    text-align: center;
-    max-width: 100%;
-}
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+    
+
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
 
 *{
     margin: 0;
@@ -39,6 +45,11 @@ section{
     max-width: 100%;
 }
 
+
+@media (max-width: 400px) {
+  }
+
+
 .container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -49,35 +60,39 @@ section{
 .one {
    background-color: powderblue;
    max-width: 100%;
+   background-size: cover;
+    text-align: center;
 }
 
 .two{
     background: grey;
     max-width: 100%;
+    background-size: cover;
 }
 
 .three{
     background-color: rgb(56, 91, 124);
     max-width: 100%;
+    background-size: cover;
 }
 
 
 .four{
      background-image : url(22.jpg);
      max-width: 100%;
-     
+     background-size: cover;
 }
 
 .fifth{
     background-image : url(1.jpg);
     max-width: 100%;
-    
+    background-size: cover;
 }
 
 .sixth{
     background-image : url(2.jpg);
     max-width: 100%;
-
+    background-size: cover;
 
 }
 
@@ -85,49 +100,49 @@ section{
 .seven{
     background-image : url(4.jpg);
     max-width: 100%;
-
+    background-size: cover;
 }
 
 .eight{
     background-image : url(8.png);
-
+    background-size: cover;
     max-width: 100%;
 }
 
 .nine{
     background-image : url(66.jpg);
-
+    background-size: cover;
     max-width: 100%;
 }
 
 
 .tenth{
     background-image : url(99.jpg);
-
+    background-size: cover;
     max-width: 100%;
 }
 
 .eleven{
     background-image : url(blk.png);
-
+    background-size: cover;
     max-width: 100%;
 }
 
 .twelve{
     background-image : url(4444.jpg);
-
+    background-size: cover;
     max-width: 100%;
 }
 
 .thirteen{
     background-image : url(8888.jpg);
-
+    background-size: cover;
     max-width: 100%;
 }
 
 .fourteen{
     background-image : url(9999.jpg);
-
+    background-size: cover;
     max-width: 100%;
 }
 
@@ -137,4 +152,6 @@ section{
     background-color: black;
     padding-top: 21%;
     max-width: 100%;
+    background-size: cover;
 }
+
