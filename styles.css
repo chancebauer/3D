@@ -48,29 +48,35 @@ section{
 
 .one {
    background-color: powderblue;
+   max-width: 100%;
 }
 
 .two{
     background: grey;
+    max-width: 100%;
 }
 
 .three{
     background-color: rgb(56, 91, 124);
+    max-width: 100%;
 }
 
 
 .four{
      background-image : url(22.jpg);
+     max-width: 100%;
      
 }
 
 .fifth{
     background-image : url(1.jpg);
+    max-width: 100%;
     
 }
 
 .sixth{
     background-image : url(2.jpg);
+    max-width: 100%;
 
 
 }
@@ -78,51 +84,51 @@ section{
 
 .seven{
     background-image : url(4.jpg);
-
+    max-width: 100%;
 
 }
 
 .eight{
     background-image : url(8.png);
 
-
+    max-width: 100%;
 }
 
 .nine{
     background-image : url(66.jpg);
 
-
+    max-width: 100%;
 }
 
 
 .tenth{
     background-image : url(99.jpg);
 
-
+    max-width: 100%;
 }
 
 .eleven{
     background-image : url(blk.png);
 
-
+    max-width: 100%;
 }
 
 .twelve{
     background-image : url(4444.jpg);
 
-
+    max-width: 100%;
 }
 
 .thirteen{
     background-image : url(8888.jpg);
 
-
+    max-width: 100%;
 }
 
 .fourteen{
     background-image : url(9999.jpg);
 
-
+    max-width: 100%;
 }
 
 
@@ -130,5 +136,5 @@ section{
 .fifteen{
     background-color: black;
     padding-top: 21%;
-
+    max-width: 100%;
 }
