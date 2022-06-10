@@ -1,0 +1,134 @@
+
+div.a {
+    text-align: center;
+}
+
+.z{
+    padding-top: 20%;
+    max-width: 100%;
+}
+
+
+.x{
+    padding-top: 5%;
+    text-align: center;
+    max-width: 100%;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+.q{
+    color: rgb(20, 116, 116);
+}
+
+section{
+    height: 100vh;
+    display: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;   
+    font-family: Roboto Mono;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.one {
+   background-color: powderblue;
+}
+
+.two{
+    background: grey;
+}
+
+.three{
+    background-color: rgb(56, 91, 124);
+}
+
+
+.four{
+     background-image : url(22.jpg);
+     
+}
+
+.fifth{
+    background-image : url(1.jpg);
+    
+}
+
+.sixth{
+    background-image : url(2.jpg);
+
+
+}
+
+
+.seven{
+    background-image : url(4.jpg);
+
+
+}
+
+.eight{
+    background-image : url(8.png);
+
+
+}
+
+.nine{
+    background-image : url(66.jpg);
+
+
+}
+
+
+.tenth{
+    background-image : url(99.jpg);
+
+
+}
+
+.eleven{
+    background-image : url(blk.png);
+
+
+}
+
+.twelve{
+    background-image : url(4444.jpg);
+
+
+}
+
+.thirteen{
+    background-image : url(8888.jpg);
+
+
+}
+
+.fourteen{
+    background-image : url(9999.jpg);
+
+
+}
+
+
+
+.fifteen{
+    background-color: black;
+    padding-top: 21%;
+
+}
