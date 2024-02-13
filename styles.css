@@ -74,6 +74,11 @@ section{
     background-color: rgb(56, 91, 124);
     max-width: 100%;
     background-size: cover;
+     
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+      
 }
 
 
